@@ -7,6 +7,51 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Serviks Detection (Laravel + Flask)
+
+[![Laravel](https://img.shields.io/badge/Laravel-Framework-red)](https://laravel.com/)
+[![Python Flask](https://img.shields.io/badge/Flask-Python-blue)](https://flask.palletsprojects.com/)
+[![License](https://img.shields.io/github/license/yourusername/serviks-detection)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/yourusername/serviks-detection)](https://github.com/yourusername/serviks-detection/issues)
+
+## Deskripsi
+Serviks Detection adalah aplikasi web untuk pemeriksaan dan diagnosa serviks berbasis Laravel (backend & frontend) dan Flask (API Machine Learning). Aplikasi ini mendukung:
+- Manajemen data pasien
+- Upload dan validasi gambar serviks
+- Diagnosa otomatis menggunakan model machine learning
+- Manajemen user multi-role (admin, dokter, user)
+- Fitur edit profil, upload foto profil, dan riwayat diagnosa
+
+## Fitur Utama
+- **Pemeriksaan Serviks**: Upload gambar serviks, validasi ukuran, dan diagnosa otomatis.
+- **Manajemen Pasien**: Tambah, edit, dan lihat data pasien serta riwayat diagnosa.
+- **User Management**: Role-based access (admin, dokter, user), edit profil, dan upload foto profil.
+- **Integrasi Flask API**: Model ML untuk prediksi kanker serviks.
+
+## Teknologi
+- Laravel 10+ (PHP)
+- Python Flask (API ML)
+- Bootstrap 5, OpenCV.js (frontend)
+- SQLite/MySQL (database)
+
+## Instalasi
+1. Clone repo ini
+2. Jalankan `composer install` dan `npm install`
+3. Copy `.env.example` ke `.env` dan atur konfigurasi
+4. Jalankan migrasi: `php artisan migrate --seed`
+5. Jalankan server Laravel: `php artisan serve`
+6. Jalankan Flask API: `cd flask_api && pip install -r requirements.txt && python app.py`
+
+## Kontribusi
+Pull request dan issue sangat terbuka untuk pengembangan lebih lanjut.
+
+## Lisensi
+MIT
+
+---
+> Aplikasi ini dikembangkan untuk membantu deteksi dini kanker serviks berbasis teknologi AI dan web modern.
+
+<!--
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -64,3 +109,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+-->
